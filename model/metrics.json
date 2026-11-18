@@ -1,0 +1,85 @@
+{
+  "model_version": "1.0.0-rf",
+  "dataset": "crop_dataset_synthetic.csv",
+  "train_samples": 3920,
+  "test_samples": 980,
+  "classes": [
+    "Banana",
+    "Cotton",
+    "Maize",
+    "Paddy",
+    "Potato",
+    "Sugarcane",
+    "Tomato"
+  ],
+  "accuracy": 0.9582,
+  "precision_macro": 0.9584,
+  "recall_macro": 0.9582,
+  "f1_macro": 0.9582,
+  "confusion_matrix": [
+    [
+      140,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      139,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      136,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      139,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      133,
+      0,
+      7
+    ],
+    [
+      0,
+      3,
+      0,
+      0,
+      0,
+      127,
+      10
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      8,
+      7,
+      125
+    ]
+  ],
+  "note": "Note on Model Metrics: The training data is rule-derived synthetic data (crop_dataset_synthetic.csv). Therefore, reported accuracy and metrics reflect agreement with the generating rules rather than real-world agronomic validation."
+}
